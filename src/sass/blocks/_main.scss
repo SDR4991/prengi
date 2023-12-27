@@ -1,0 +1,63 @@
+.main{
+    margin-top: 10px;
+    min-height: 700px;
+	position: relative;
+    background: url('../img/first_bg.png') no-repeat 100%/cover;
+    &__wrapper{
+        display: flex;
+        justify-content:space-between;
+    }
+    &__logo{
+        margin-top: 41px;
+    }
+
+    &__menu{
+        margin-top: 70px;
+        
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color:#ffffff;
+            font-size: 14px;
+            margin-right: 35px;
+            &:hover{
+                cursor:pointer;
+                color:#51d4f8;
+            }
+        }
+    }
+
+    &__titles{
+        &-title{
+            margin-top: 133px;
+            font-size: 42px;
+            line-height: 48px;
+            color: #ffffff;
+            font-weight: 300;
+        }
+
+        &-subtitle{
+            margin-top: 40px;
+            font-size: 24px;
+            line-height: 30px;
+            color:#ffffff;
+            font-weight: 300;
+        }
+
+        &-btn{
+            margin-top: 40px;
+        }
+    
+    }
+    
+    &__cellphones{
+        margin-top: 60px;
+    }
+
+    &__wrappertwo{
+        display: grid;
+        grid-template: auto / 600px 435px ;
+        column-gap: 105px;
+    }
+}
+

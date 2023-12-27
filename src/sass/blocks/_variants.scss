@@ -1,0 +1,109 @@
+.variants{
+    position: relative;
+    min-height: 580px;
+    padding-top: 80px;
+    min-width: 100vh;
+
+    &__title{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__wrapper{
+        display: grid;
+        grid-template: minmax(580px,auto) / repeat(2, 50%) ;
+    }
+
+    &__location{
+        position: relative;
+        background: url('../img/variants/system.png') no-repeat 100% / cover;
+        &_object{
+            position: relative;
+            left: 80%;
+            top: -25%;
+        }
+        &_subtitle{
+                position: relative;
+                text-transform: uppercase;
+                margin: 270px 80px auto;
+                font-size: 30px;
+                line-height: 36px;
+                font-weight: 700;
+                color: #ffffff;
+                text-align: start;
+                z-index: 1;
+                &::after{
+                    content:'';
+                    position: absolute;
+                    background-color:#36b4d4;
+                    height: 165px;
+                    width: 165px;
+                    opacity: 0.5;
+                    left: -40px;
+                    top: -10px;
+                    z-index: -1;
+                }
+            }
+        &_descr{
+                padding: 20px 80px 0 80px;
+                font-size: 18px;
+                line-height: 36px;
+                font-weight: 500;
+                color: #ffffff;
+                text-align: start;
+                z-index: 1;
+            }
+        
+    }
+    &__cloud{
+        position: relative;
+        background: url('../img/variants/keylock.png') no-repeat 100% / cover;
+        &_object{
+            position: relative;
+            left: 80%;
+            top: -25%;
+        }
+        &_subtitle{
+                position: relative;
+                text-transform: uppercase;
+                margin: 270px 80px auto;
+                font-size: 30px;
+                line-height: 36px;
+                font-weight: 700;
+                color: #ffffff;
+                text-align: end;
+                z-index: 1;
+                &::after{
+                    content:'';
+                    position: absolute;
+                    background-color:#36b4d4;
+                    height: 165px;
+                    width: 165px;
+                    opacity: 0.5;
+                    right: -40px;
+                    top: -10px;
+                    z-index: -1;
+                }
+            }
+        &_descr{
+                padding: 20px 80px 0 250px;
+                font-size: 18px;
+                line-height: 36px;
+                font-weight: 500;
+                color: #ffffff;
+                text-align: end;
+                z-index: 1;
+            }
+        }
+        
+    }
+    
+
+    

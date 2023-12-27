@@ -1,0 +1,53 @@
+.expert{
+    min-height: 880px;
+    padding:85px 0 75px 0;
+    background: url('../img/second_bg.png') no-repeat 100%/cover;
+
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    &__wrapper{
+        padding-top: 35px;
+    }
+    &__menu{
+        
+        display: grid;
+        align-items: center;
+        grid-template: 60px / repeat(6,minmax(170px,auto));
+        list-style: none;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        &_items{
+            position: relative;
+            text-align: center;
+            &::after{
+                content:'';
+                height: 45px;
+                width: 1px;
+                position: absolute;
+                background-color: #ffff;
+                top:-10px;
+                left: 190px;
+                }
+            a{
+                font-size:16px;
+                text-decoration: none;
+                color:#ffffff;
+                &:hover{
+                    cursor: pointer;
+                    color: #51d4f8;
+                }
+            }
+        }
+    }
+
+    &__macbook{
+        display: block;
+        padding-top: 35px;
+        margin: 0 auto;
+    }
+}

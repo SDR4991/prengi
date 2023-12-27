@@ -1,0 +1,30 @@
+.header{
+    margin-top: 20px;
+
+    &__wrapper{
+        display: grid;
+        grid-template-rows: 45px;
+        grid-template-columns:160px 185px 190px 205px 220px;
+        column-gap:25px;
+        justify-content: center;
+    }
+
+    &__country{
+        display: grid;
+        grid-template-columns: 20px 180px;
+        column-gap: 20px;
+        &_detail{
+            display: grid;
+            grid-template-rows: repeat(3,15px);
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 18px;
+            &-name{
+                font-weight: 700;
+            }
+        }
+        &_img{
+            padding-top: 5px;
+        }
+    }
+}

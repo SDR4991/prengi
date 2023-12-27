@@ -1,0 +1,24 @@
+.start{
+    
+    padding-top: 80px;
+    min-height: 685px;
+    &__img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__subtitle{
+        margin-top: 70px;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        font-weight: 300;
+        color: #4e4e4e;
+    }
+
+    &__button{
+        display: block;
+        margin: 40px auto;
+
+    }
+}

@@ -1,0 +1,44 @@
+footer{
+    background-color: #0082a1;
+    padding-top: 45px;
+    min-height: 490px;
+    h3{
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffff;
+        font-weight: 500;
+    }
+}
+    
+.footer{
+    &__sections{
+        display: grid;
+        grid-template: 315px / 500px 265px 120px 110px ;
+        column-gap: 110px;
+    }
+
+    &__company{
+        &_logo{
+            margin-top: 20px;
+        }
+        &_descr{
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 19px;
+            color:#ffff;
+            font-weight: 300;
+        }
+    }
+
+    &__rights{
+        color:#ffff;
+    }
+
+    &__modules{
+        &_list{
+            margin-top: 20px;
+            color: #fff;
+        }
+    }
+}
+
